@@ -1,0 +1,86 @@
+body{
+    background: #dddddd;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #ff493d;
+    padding: 10px;
+    
+    width: 100%;
+    
+}
+
+.civilite .row{
+display: flex;
+margin: 0 auto;
+justify-content: center;
+}
+
+
+.civilite .col{
+    display: block;
+    }
+    
+    
+ul li{
+    list-style-type: none;
+} 
+
+.gauche .droite{
+    display: block;
+}
+.container{
+    display: flex;
+}
+.titreprincipale .row{
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.titreprincipale .col{
+    
+    text-align: center;
+}
+.gauche .row .card{
+    display: flex;
+    width: 500px;
+}
+
+.row .interet{
+    display: flex;
+}
+
+.row{
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+
+.row .titre{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.droite{
+    background: #bed123;
+    height: 100%;
+}
+
+.theme p{
+    text-decoration: underline;
+    margin: 0;
+
+}
+
+.ou p{
+    color: #ff493d;
+}
+.lieu p{
+    font-style: italic;
+    font-size: 16px;
+}
