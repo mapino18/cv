@@ -84,3 +84,35 @@ ul li{
     font-style: italic;
     font-size: 16px;
 }
+
+.reseaux .col li{
+    display: flex;
+    
+}
+
+.reseaux .col li i{
+    padding: 10px;
+    
+}
+.progress-bar{
+    background: #ff493d;
+}
+
+
+.icon_reseau{
+   font-size: 30px;
+}
+
+@media all and (max-width: 950px){
+
+    .container{
+        display: block
+
+    }
+    
+    .col1, .col2, .col3{
+        width: 100%;
+        display: block;
+    }
+
+}

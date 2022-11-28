@@ -1,3 +1,11 @@
+<!-- 
+Name: Gérald LEGER
+Date : 28/11/2022
+Description : Mon cv en format HTML
+
+--> 
+
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -13,6 +21,7 @@
     </head>
     <body>
         <div class="container">
+            <!-- DEBUT HEADER -->
             <header>
                 <div class="row">
                     <div class="col">
@@ -68,7 +77,9 @@
                     </div>
                 </div>
             </header>
+            <!-- FIN HEADER -->
         </div>
+        <!-- PAGE PRINCIPALE -->
         <div class="container titreprincipale"> 
             <div class="row">
                     <div class="col col-md-8">
@@ -81,9 +92,10 @@
             </div>
         </div>
         <div class="container">  
-            <!-- PARTIE GAUCHE -->      
+            <!-- DEBUT COLONNE GAUCHE -->      
             <div class="col col-md-4 gauche">
-                <div class="row interet">
+                <!-- DEBUT PARTIE LANGUES -->
+                <div class="row langues">
                     <div class="titre">
                         Langues
                     </div>
@@ -104,6 +116,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- FIN PARTIE LANGUES -->
+                <!-- DEBUT PARTIE ATOUTS -->
                 <hr>
                 <div class="row atouts">
                     <div class="titre">
@@ -124,7 +138,9 @@
                     </div>
 
                 </div>
+                <!-- DEBUT PARTIE ATOUTS -->
                 <hr>
+                <!-- FIN PARTIE INTERET -->
                 <div class="row interet">
                     <div class="titre">
                         Centres d'intérêt
@@ -157,12 +173,47 @@
                         </div>
                     </div>
                 </div> 
-                
-                
-                
-            </div>
-            <!--   PARTIE DROITE -->
+                <!-- FIN PARTIE INTERET -->
+                <hr>
+                <!-- DEBUT PARTIE RESEAUX SOCIAUX -->
+                <div class="row reseaux">
+                    <div class="titre">
+                        Réseaux Sociaux
+                    </div>
+                    <div class="paragraphe">
+                        <div class="row">
+                            <div class="col">
+                                <ul>
+                                    <li class="theme">
+                                        
+                                        <i class="fa-brands fa-linkedin icon_reseau"></i>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <p> <a href="https://www.linkedin.com/in/g%C3%A9rald-leger-537b8021/">https://www.linkedin.com/</a> </p>
+                                            </li>                                            
+                                        </ul>
+                                    </li>
+                                    <li class="theme">
+                                        <i class="fa-brands fa-facebook icon_reseau"></i>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <p> <a href="https://www.facebook.com/gerald.leger18">https://www.facebook.com</a> </p> 
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- DEBUT PARTIE RESEAUX SOCIAUX -->               
+           </div>
+            <!-- FIN COLONNE GAUCHE -->
+            <!-- DEBUT  COLONNE DROITE -->            
             <div class="col col-md-8 droite">
+                <!-- DEBUT PARTIE FORMATION -->
                 <div class="row formation">
                     <div class="col titre">
                         <p> Diplômes et Formations</p>
@@ -220,7 +271,9 @@
                 
                     
                 </div>
+                <!-- FIN PARTIE FORMATION -->
                 <hr>        
+                <!-- DEBUT PARTIE EXPERIENCE-->
                 <div class="row experience">
                     <div class="col titre">
                         <p>Expérience professionnelles</p>
@@ -292,46 +345,59 @@
                 
                     
                 </div>
+                <!-- FIN PARTIE EXPERIENCE-->
                 <hr>
+                <!-- DEBUT PARTIE COMPETENCE-->
                 <div class="row compétence">
                     <div class="col titre">
                         <p>Compétences</p>
                     </div>
                     <div class="row">            
-                        <div class="col-2">
+                        <div class="col-4">
                             <h6>Architecte web</h6>
                         </div>
-                        <div class="col-10">
-                            
+                        <div class="col-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">            
-                        <div class="col-8">
+                        <div class="col-4">
                             <h6>Language informatique HTML</h6>
                         </div>
-                        <div class="col-4">
-                            
+                        <div class="col-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">            
-                        <div class="col-8">
+                        <div class="col-4">
                             <h6>Language PHP</h6>
                         </div>
-                        <div class="col-4">
-
+                        <div class="col-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
 
                     </div>
                     <div class="row">            
-                        <div class="col-8">
+                        <div class="col-4">
                             <h6>Language Python</h6>
                         </div>
-                        <div class="col-4">
-                            
+                        <div class="col-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <!-- FIN PARTIE COMPETENCE-->
             </div>
-            </div>
+            <!-- FIN COLONNE DROITE -->
         </div>
+        <!-- FIN PAGE PRINCIPALE -->
     </body>
 </html>
